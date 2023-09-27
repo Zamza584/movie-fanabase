@@ -120,7 +120,7 @@ menuButton.addEventListener("click", (event) => {
 document.querySelector(".hero__img").addEventListener("mouseover", (e) => {
   const heroContent = document.querySelector(".hero__content");
   const hero = heroContent.querySelector("h1");
-  hero.style.cssText = "color: white; background-color: black; padding: 1rem; border-radius: 1rem ";
+  hero.style.cssText = "color: white; background-color: black; padding: 1rem; border-radius: 1rem;  transition: all linear .5s;";
   
 });
 
